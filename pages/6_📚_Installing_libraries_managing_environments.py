@@ -178,7 +178,7 @@ Deactivating will move you back to the base environment.
 ```
 conda deactivate
 ```
-
+&nbsp;
 """)
 
 st.markdown(
@@ -193,6 +193,8 @@ st.markdown(
 5. Install the pandas library in the mlpy39 environment.
 6. Check whether the pandas library has been installed in the mlpy39 environment.
 7. Deactivate the mlpy39 environment.
+
+&nbsp;
 """
 )
 
