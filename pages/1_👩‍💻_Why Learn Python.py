@@ -8,13 +8,13 @@ import plotly.express as px
 DROPDOWN_VALUES = ['TSLA', 'MSFT', 'GOOG', 'META', 'NFLX', 'AMZN', 'BTC-USD']
 
 st.set_page_config(
-    page_title='Learning Python at the Digital Skills Lab',
+    page_title='Why Learn Python?',
     page_icon="👩‍💻"
 )
 
 def main(dropdown_values):
 
-    st.title("Learning Python at the Digital Skills Lab")
+    st.title("Why Learn Python?")
     st.markdown(
         """
         **Michael Wiemers**  
@@ -89,7 +89,7 @@ def main(dropdown_values):
         This dashboard/webapp, for instance, was developed with [streamlit](https://streamlit.io/).
 
         One of the best tools to develop animated and interactive charts is [plotly](https://plotly.com/) 
-        and due to Python's popularity, a plotly can be used through Python as well.
+        and due to Python's popularity, plotly can be used through Python as well.
 
         Below is an example of a beautiful chart, that was created with plotly, using only a few lines of code.
 
@@ -157,8 +157,21 @@ def main(dropdown_values):
     st.line_chart(returns)
 
 
+    st.markdown(
+        """
+        ### Python as a glue language
 
-@st.cache
+        Since Python is so easy to read and write, it has become one of the most popular choices for programmers to tied or glue together
+        various systems and technologies written in other programming languages. Highly time-critical and performance-critical pieces of 
+        software are often written in faster languages like C/C++/C# or Java. Python is used as a scripting language to call and integrate
+        components written in lower level programming languages. This makes Python a relevant skill not only for Data Science where often
+        most of the software is written in entirely in Python, but also for more complex technology that requires the usage of several programming languages.
+        """
+    )
+
+
+
+@st.cache_resource
 def load_data(url):
     return pd.read_csv(url)
     
