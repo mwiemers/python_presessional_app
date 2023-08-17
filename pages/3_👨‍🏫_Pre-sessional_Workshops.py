@@ -60,7 +60,7 @@ Dates and times for the in-person workshops:
 
 &nbsp;
 
-<div class="highlight red">There are a limited number of spaces avaialble for each sesssion. <b>Please use 
+<div class="highlight red">There are a limited number of spaces available for each session. <b>Please use 
 <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a></b> to secure your spot.
 If you can no longer attend, please cancel your booking so another student can book.</div>
             

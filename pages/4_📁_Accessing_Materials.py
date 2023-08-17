@@ -12,9 +12,9 @@ st.title("Accessing and opening Jupyter Notebooks")
 
 st.markdown("""
 
-    ### Access to the DSL-Python-Presessional team on Teams
+    ### Access to the DSL-Python-Pre-sessional team on Teams
 
-    The Jupyter Notebooks can be accessed on Teams from the DSL-Python-Presessional team.
+    The Jupyter Notebooks can be accessed on Teams from the DSL-Python-Pre-sessional team.
 
     Follow these steps to join the team:
 
@@ -33,7 +33,7 @@ st.markdown(
 ### Download the jupyter notebooks
 
 1. Go to the Teams overview in MS Teams, which can be accessed from the sidebar on the left.
-2. Select the DSL-Python-Presessional team.
+2. Select the DSL-Python-Pre-sessional team.
 3. Select the Jupyter Notebooks channel.
 4. Select the Files tab to access the jupyter notebooks.
 5. Click here to toggle selection for all items in the folder.

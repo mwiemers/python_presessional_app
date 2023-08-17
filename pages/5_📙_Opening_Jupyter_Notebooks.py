@@ -22,7 +22,7 @@ To open a jupyter notebook, you will need to launch the jupyter lab app, which y
 
 Follow these steps to open a jupyter notebook in jupyter lab:      
 1. Open the terminal/command prompt:
-    * On Mac: Open the terminal. You can search for the terminal from the Mac search bar: Hit Cmd+Spacebar and type in terminal.
+    * On Mac: Open the terminal. You can search for the terminal from the Mac search bar: Hit Cmd+spacebar and type in terminal.
     * On Windows: Open the command prompt. You can search for the command prompt from the Windows search bar: Hit the Windows key and type in command prompt.
 2. In the terminal/command prompt, type and run the following command: jupyter lab. The jupyter lab app will open in your browser.
 """)

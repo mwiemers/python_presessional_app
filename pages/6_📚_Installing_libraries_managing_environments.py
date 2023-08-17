@@ -13,8 +13,8 @@ st.markdown(
     """
 ## Installing libraries
 
-This page is recommended only after you have worked through the workshop series on the fundamentals of programming in Python. Having 
-completed the workshop series on the fundamentals of programming in Python, you should have a good understanding of the basics of programming in Python, 
+This page is recommended only after you have worked through the workshop series on the fundamentals of programming in Python and is entirely optional. 
+Having completed the workshop series on the fundamentals of programming in Python, you should have a good understanding of the basics of programming in Python, 
 and have developed some intuition about what libraries are. This will help you to get the most out of this page.
 
 With Anaconda, many of the most important libraries for data science are already installed. However, you might have to install 
@@ -48,7 +48,7 @@ If command returns an empty list, pandas has not been installed. By the way, thi
 conda list pandas
 ```
 
-#######Installing a library
+#### Installing a library
 
 To install a library, we use the following command, which will install the latest version of the pandas library.
 
@@ -109,14 +109,14 @@ in the base Anaconda environment. This section is going to explain what an envir
         
 In programming it is important that you can create separate workspaces called environments to work with a 
 specific collection of libraries. A library is a complex collection of tools (functions and classes) to perform specific tasks like data manipulation, visualization, analysis, 
-machine learning and deep learning. Libraries depend on other libraries. This can potentially create conflifts where two libraries that you need for different projects 
+machine learning and deep learning. Libraries depend on other libraries. This can potentially create conflicts where two libraries that you need for different projects 
 require a different version of a third library. To solve such a dependency conflict, we need to create two separate workspaces or environments. In environment 1, library A 
 can work with version 1 of library C. In environment 2, library B can work with version 2 of library C.
 
 Below is an example of this problem. Let's assume you have a data science project and a web application project. For the data science project you need a 
 specific data wrangling library. This data wrangling library itself needs a specific Python version and a specific numpy version. For your web 
 application project you need a specific web development library. This web development library itself needs a Python version and numpy version that 
-is different from the version your data wranling library needs. The problem is that in a single environment we can only have one version of a specific 
+is different from the version your data wrangling library needs. The problem is that in a single environment we can only have one version of a specific 
 library. You will have to chose whether to use the Python and Numpy version that is required for the data wrangling or the web development library.
 """)
 
@@ -136,7 +136,7 @@ When we want to work on a project, we have to tell conda which environment/folde
 
 This process of creating separate Python versions for different projects to avoid library dependency problems is easier with Anaconda than it is with 
 just Python. We can use the conda package manager not only to install/remove libraries, but also to create, manage and remove environments! Without conda, 
-we would have to use separate tools to install/manage libraries aned recreate/manage environments. In addition, setting this up is not a straightforward 
+we would have to use separate tools to install/manage libraries and recreate/manage environments. In addition, setting this up is not a straightforward 
 process.
 
 **The simplicity of the installation with Anaconda and the fact that we can use conda to manage both libraries and environments with different Python versions is the reason
