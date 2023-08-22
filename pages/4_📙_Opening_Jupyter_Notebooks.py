@@ -49,8 +49,15 @@ whereas code cells are being used to run Python code.
 Watch the video below for a walkthrough about Markdown and Code cells and how to run Python code in Jupyter Notebooks.
 
 <div style="position: relative; padding-bottom: 41.25%; height: 0;">
-    <iframe src="https://www.loom.com/embed/cce0485fcca341869461dc3042d8116f?sid=b7a57ecf-cfa8-4da8-a111-1dce212baf9e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    </iframe>
+    <iframe src="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+<div class="timestamps">
+    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m00s">00:00 Introduction</a>
+    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m27s">00:27 Navigating to Notebooks Folder</a>
+    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m51s">00:51 Markdown Cells</a>
+    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=01m26s">01:26 Code Cells</a>
+    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=02m38s">02:38 Executing Code</a>
 </div>
 
 """, unsafe_allow_html=True)
