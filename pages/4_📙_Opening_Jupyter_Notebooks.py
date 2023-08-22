@@ -52,8 +52,8 @@ Watch the video below for a walkthrough about Markdown and Code cells and how to
     <iframe src="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
-<div class="timestamps">
-    <ul style="list-style-type: none; padding-left: 0;">
+<div class="timestamps" style="padding-top: 20px">
+    <ul style="list-style-type: none; padding-left: 0; color:white">
         <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m00s">00:00 Introduction</a></li>
         <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m27s">00:27 Navigating to Notebooks Folder</a></li>
         <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m51s">00:51 Markdown Cells</a></li>
