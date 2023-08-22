@@ -40,6 +40,26 @@ st.markdown(
 st.image("img/jupyter_lab.png")
 
 st.markdown(
+      """
+### Running Python code in Jupyter Notebooks
+
+Jupyter Notebooks consist of Markdown and code cells. Markdown cells are used to display text, images and other multimedia files, 
+whereas code cells are being used to run Python code.
+
+Watch the video below for a walkthrough about Markdown and Code cells and how to run Python code in Jupyter Notebooks.
+
+<div style="position: relative; padding-bottom: 41.25%; height: 0;">
+    <iframe src="https://www.loom.com/embed/cce0485fcca341869461dc3042d8116f?sid=b7a57ecf-cfa8-4da8-a111-1dce212baf9e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+
+""", unsafe_allow_html=True)
+
+
+
+
+
+st.markdown(
 """
 <br>
 
@@ -52,4 +72,13 @@ If you struggle with any of the steps from this tutorial, we recommend the follo
 </div>
             
 """, unsafe_allow_html=True
+)
+
+st.markdown(
+"""
+### Next step
+
+Go to the [Pre-Sessional Workshops section](https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops) to 
+learn about the format of the Python workshops and how to sign up for a session.
+"""
 )

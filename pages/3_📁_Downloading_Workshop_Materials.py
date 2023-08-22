@@ -14,10 +14,10 @@ st.markdown("""
 
     ### Access to the DSL-Python-Pre-sessional team on Teams
 
-    The Jupyter Notebooks can be accessed on Teams from the DSL-Python-Pre-sessional team.
+    In the in-person taught Python pre-sessional workshops, we teach Python using Jupyter Notebooks.
+    The notebooks can be accessed on Teams from the DSL-Python-Pre-sessional team.
 
     Follow these steps to join the team:
-
     
     1. Go to the Teams overview in MS Teams, which can be accessed from the sidebar on the left.
     2. Select the Join or create team option on the top right.
@@ -57,4 +57,13 @@ If you struggle with any of the steps from this tutorial, we recommend the follo
 </div>
             
 """, unsafe_allow_html=True
+)
+
+st.markdown(
+"""
+### Next step
+
+Go to the [Opening Jupyter Notebooks section](https://dsl-python-presessional.streamlit.app/Opening_Jupyter_Notebooks) and follow
+the instructions to open the Jupyter Notebooks and Python code in a Jupyter Notebook.
+"""
 )

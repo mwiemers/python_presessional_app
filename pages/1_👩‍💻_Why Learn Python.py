@@ -169,6 +169,14 @@ def main(dropdown_values):
         """
     )
 
+    st.markdown(
+        """
+        ### Next step
+
+        Go to the [Installing Python section](https://dsl-python-presessional.streamlit.app/Installing_Python) and follow 
+        the instructions to install Python on your own Windows laptop or Macbook.
+        """
+    )
 
 
 @st.cache_resource
