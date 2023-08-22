@@ -53,11 +53,12 @@ Watch the video below for a walkthrough about Markdown and Code cells and how to
 </div>
 
 <div class="timestamps">
-    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m00s">00:00 Introduction</a>
-    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m27s">00:27 Navigating to Notebooks Folder</a>
-    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m51s">00:51 Markdown Cells</a>
-    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=01m26s">01:26 Code Cells</a>
-    <a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=02m38s">02:38 Executing Code</a>
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m00s">00:00 Introduction</a></li>
+        <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m27s">00:27 Navigating to Notebooks Folder</a></li>
+        <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=00m51s">00:51 Markdown Cells</a></li>
+        <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=01m26s">01:26 Code Cells</a></li>
+        <li style="list-style-type: none;"><a href="https://www.loom.com/embed/4a09ba98dd164d1589d2a5e8168f0661?sid=4fed4ed1-f2df-455d-951c-4f55ece99de2&t=02m38s">02:38 Executing Code</a></li>
 </div>
 
 """, unsafe_allow_html=True)
