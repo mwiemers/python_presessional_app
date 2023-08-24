@@ -61,7 +61,7 @@ Dates and times for the in-person workshops:
 &nbsp;
 
 <div class="highlight red">
-The Python workshops will be available to sign up from <b>4 Sept 2023<b>.
+The Python workshops will be available to sign up from <b>4 Sept 2023</b>.
 <br>
 <br>
 There are a limited number of spaces available for each session!
