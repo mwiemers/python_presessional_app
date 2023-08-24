@@ -68,7 +68,7 @@ There are a limited number of spaces available for each session!
 <br>
 <br> 
 <b>Please use 
-<a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a></b> to secure your spot.
+<a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a> to secure your spot.</b>
 If you can no longer attend, please cancel your booking so another student can book.</div>
             
             
