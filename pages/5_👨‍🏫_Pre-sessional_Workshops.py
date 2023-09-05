@@ -29,6 +29,7 @@ in order unless you are already familiar with a particular topic.
 
 
 ### The Python Fundamentals workshops series
+
 The Python Fundamentals workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
 
 - Numerical variables
@@ -43,6 +44,9 @@ The Python Fundamentals workshops are for beginners that have no prior experienc
 - Final Coding Challenges
 
 &nbsp; 
+            
+Each of the notebooks will take you roughly 1 hour to complete. We estiamte that the average learner will required 10-12 hours to complete 
+all topics excluding the final coding challenge, which will take another 1-3 hours to complete.
             
 The workshops will be run on a regular basis through September and early October. 
             

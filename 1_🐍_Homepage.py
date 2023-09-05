@@ -30,8 +30,8 @@ with cols[1]:
 st.markdown(
     """
     The DSL Python pre-sessional support is divided into two main parts:
-    1. The instructions from this website to install Python on your laptop and use Jupyter Notebooks
-    2. The on-campus pre-sessional workshops to learn the fundamentals of programming in Python.
+    1. The instructions from this website to install Python on your laptop and use Jupyter Notebooks (30 min)
+    2. The on-campus pre-sessional workshops to learn the fundamentals of programming in Python (10-12 hours of learning).
 
     Please follow the instructions on this website to install Python and using Jupyter Notebooks before 
     you join the DSL Python Pre-sessional workshops.
