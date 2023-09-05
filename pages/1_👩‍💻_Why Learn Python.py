@@ -18,13 +18,6 @@ def main(dropdown_values):
     st.title("Why Learn Python?")
     st.markdown(
         """
-        **Michael Wiemers**  
-        Learning Developer (Data Science Tools)  
-        Digital Skills Lab  
-
-        ---
-
-        ## Why learn Python?
         There are many reasons why you should consider learning Python if you are aiming for a job 
         in the tech industry as a Data Analyst, Data Scientist, Machine Learning Engineer or Software 
         Developer.
@@ -169,7 +162,7 @@ def main(dropdown_values):
 
         Go to the <a href="https://dsl-python-presessional.streamlit.app/Installing_Python", target="_self">Installing Python section<a> and follow 
         the instructions to install Python on your own Windows laptop or Macbook.
-        """
+        """, unsafe_allow_html=True
     )
 
 
