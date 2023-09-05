@@ -12,6 +12,7 @@ st.set_page_config(
     page_icon="👩‍💻"
 )
 
+
 def main(dropdown_values):
 
     st.title("Why Learn Python?")
@@ -42,7 +43,7 @@ def main(dropdown_values):
     tiobe_history = clean_tiobe_history(load_data(tiobe_history_url))
     gap = load_data(gapminder_url)
 
-    st.dataframe(tiobe_top_20, use_container_width = True)
+    st.dataframe(tiobe_top_20, use_container_width=True)
 
     st.write("\n")
     st.markdown(
@@ -53,17 +54,16 @@ def main(dropdown_values):
     )
 
     fig = px.line(
-        tiobe_history, 
-        x='year', 
-        y='rank', 
-        color='language', 
+        tiobe_history,
+        x='year',
+        y='rank',
+        color='language',
         title='TIOBE historic data')
 
     fig.update_layout(yaxis_range=[40, 1])
 
     st.plotly_chart(fig, use_container_width=True)
 
-    
     st.markdown(
         """
         ### Easy to learn
@@ -97,9 +97,7 @@ def main(dropdown_values):
         """
     )
 
-
-    st.code(body=
-    """
+    st.code(body="""
         fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
                         range_x=[0, 50000], 
                         range_y=[22, 90],
@@ -109,23 +107,22 @@ def main(dropdown_values):
                                 "life_exp":"Life Expectancy",
                                 "continent": "Continent"})
     """,
-    language='python')
+            language='python')
 
     fig = px.scatter(gap, x="gdp_pc", y="life_exp", color="continent", size='pop', animation_frame="year",
-                    range_x=[0, 50000], 
-                    range_y=[22, 90],
-                    title="Gapminder",
-                    hover_data=['country'],
-                    labels={"gdp_pc":"GDP per capita",
-                            "life_exp":"Life Expectancy",
-                            "continent": "Continent"}
-        )
+                     range_x=[0, 50000],
+                     range_y=[22, 90],
+                     title="Gapminder",
+                     hover_data=['country'],
+                     labels={"gdp_pc": "GDP per capita",
+                             "life_exp": "Life Expectancy",
+                             "continent": "Continent"}
+                     )
 
     st.plotly_chart(fig, use_container_width=True)
 
-    
     st.markdown(
-            """
+        """
             ### Versatility
             Python is a general purpose programming language, which means that it was developed 
             to be used for all possible use-cases. It is the most popular language for Data Science together 
@@ -135,27 +132,24 @@ def main(dropdown_values):
             Finance dashboard that enbales the user to select stocks and plot their data
 
             """
-        )
+    )
 
-    
     select = st.text_input('Add ticker to dropdown menu')
-    
+
     dropdown_values += [select]
-    
+
     dropdown = st.multiselect(
         'Choose a stock',
-         dropdown_values,
+        dropdown_values,
         ['TSLA'])
 
-
-    start = st.date_input('Start', value = pd.to_datetime('2019-01-01'))
-    end = st.date_input('End', value = pd.to_datetime('today'))
+    start = st.date_input('Start', value=pd.to_datetime('2019-01-01'))
+    end = st.date_input('End', value=pd.to_datetime('today'))
 
     adj_close = yf.download(dropdown, start, end)['Adj Close']
     returns = (adj_close.pct_change()+1).cumprod()*100 - 100
     st.write('\n\n Stock Returns %')
     st.line_chart(returns)
-
 
     st.markdown(
         """
@@ -173,7 +167,7 @@ def main(dropdown_values):
         """
         ### Next step
 
-        Go to the [Installing Python section](https://dsl-python-presessional.streamlit.app/Installing_Python) and follow 
+        Go to the <a href="https://dsl-python-presessional.streamlit.app/Installing_Python", target="_self">Installing Python section<a> and follow 
         the instructions to install Python on your own Windows laptop or Macbook.
         """
     )
@@ -182,8 +176,8 @@ def main(dropdown_values):
 @st.cache_resource
 def load_data(url):
     return pd.read_csv(url)
-    
-    
+
+
 def clean_tiobe_top_20(df):
     return (
         df
@@ -191,7 +185,8 @@ def clean_tiobe_top_20(df):
         .rename(columns={'Sep 2022': 'Rank 2022',
                          'Programming Language.1': 'Programming Language'})
         .iloc[:, [1, 0, 2]]
-        )
+    )
+
 
 def clean_tiobe_history(df):
     return (
@@ -205,12 +200,10 @@ def clean_tiobe_history(df):
         .melt(id_vars='year')
         .rename(columns={'value': 'rank', '': 'language'})
         .sort_values(by=['year', 'rank'])
-        .assign(rank = lambda df: df['rank'].replace({'-': np.nan}).astype('float'))
+        .assign(rank=lambda df: df['rank'].replace({'-': np.nan}).astype('float'))
         .query("~language.isin(['Pascal', 'Visual Basic', '(Visual) Basic', 'Prolog'])", engine='python')
-        )
-
+    )
 
 
 # if __name__ == '__main__':
 main(DROPDOWN_VALUES)
-

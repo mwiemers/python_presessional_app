@@ -30,7 +30,7 @@ Follow these steps to open a jupyter notebook in jupyter lab:
 st.image("img/terminal.png")
 
 st.markdown(
-      """
+    """
 3. In the jupyter lab app, select the folder from the menu on the left side where you keep the jupyter notebooks for the Python workshops.
 4. Double-click on the notebook to open it. Your screen should look something like below. Notebooks can be selected from the file explorer on the left side,
         while the notebooks are being displayed in separate tabs on the right. You can change the theme to dark by selecting Settings > Theme > JupyterLab Dark.
@@ -40,7 +40,7 @@ st.markdown(
 st.image("img/jupyter_lab.png")
 
 st.markdown(
-      """
+    """
 ### Running Python code in Jupyter Notebooks
 
 Jupyter Notebooks consist of Markdown and code cells. Markdown cells are used to display text, images and other multimedia files, 
@@ -64,11 +64,8 @@ Watch the video below for a walkthrough about Markdown and Code cells and how to
 """, unsafe_allow_html=True)
 
 
-
-
-
 st.markdown(
-"""
+    """
 <br>
 
 <div class="highlight blue">
@@ -83,10 +80,10 @@ If you struggle with any of the steps from this tutorial, we recommend the follo
 )
 
 st.markdown(
-"""
+    """
 ### Next step
 
-Go to the [Pre-Sessional Workshops section](https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops) to 
+Go to the <a href="https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops", target="_self">Pre-sessional workshops section</a> to 
 learn about the format of the Python workshops and how to sign up for a session.
-"""
+""", unsafe_allow_html=True
 )

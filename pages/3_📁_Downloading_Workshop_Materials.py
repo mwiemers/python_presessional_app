@@ -45,7 +45,7 @@ st.image("img/download_notebooks.png")
 
 
 st.markdown(
-"""
+    """
 <br>
 
 <div class="highlight blue">
@@ -60,10 +60,10 @@ If you struggle with any of the steps from this tutorial, we recommend the follo
 )
 
 st.markdown(
-"""
+    """
 ### Next step
 
-Go to the [Opening Jupyter Notebooks section](https://dsl-python-presessional.streamlit.app/Opening_Jupyter_Notebooks) and follow
+Go to the <a href="https://dsl-python-presessional.streamlit.app/Opening_Jupyter_Notebooks", target="_self">Opening Jupyter Notebooks section</a> and follow
 the instructions to open the Jupyter Notebooks and Python code in a Jupyter Notebook.
 """
 )

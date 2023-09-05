@@ -29,18 +29,12 @@ with cols[1]:
 
 st.markdown(
     """
-    This website contains instructions on how to install Python on your laptop which have to be completed before 
-    you join the DSL Python Pre-sessional workshops. The pages on installing libraries and managing environments 
-    are optional/should be completed after you have worked through the materials from the Python workshops.
+    The DSL Python pre-sessional support is divided into two main parts:
+    1. The instructions from this website to install Python on your laptop and use Jupyter Notebooks
+    2. The on-campus pre-sessional workshops to learn the fundamentals of programming in Python.
 
-    After having completed this tutorial you will be able to:
-    * Describe what makes Python a popular programming language.
-    * Install Python on your personal laptop.
-    * Open jupyter notebooks with the jupyter lab app.
-    * Install Python libraries with conda (optional).
-    * Manage Python environments with conda (optional).
-
-    &nbsp;
+    Please follow the instructions on this website to install Python and using Jupyter Notebooks before 
+    you join the DSL Python Pre-sessional workshops.
     
     We recommend to set apart 30 minutes to work through this tutorial (excluding the optional sections on installing libraries and managing environments).
 
@@ -57,11 +51,11 @@ st.markdown(
     <div class="highlight blue">
     If you struggle with any of the steps from this tutorial, we recommend the following:
     <ul>
-        <li>Come to the pre-sessional workshops, as detailed in the Python Pre-sessional workshops section, to get help and learn Python</li>
+        <li>Come to the pre-sessional workshops, as detailed in the 
+        <a href="https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops", target="_self">Python Pre-sessional workshops section</a>, 
+        to get help and learn Python</li>
         <li>Seek support from our online 1-2-1 or drop-in advice, as detailed on our <a href="https://info.lse.ac.uk/current-students/digital-skills-lab/drop-in-sessions">website</a>.</li>
     </ul>
     </div>
     """, unsafe_allow_html=True
-    )
-
-
+)

@@ -4,6 +4,7 @@ from PIL import Image
 from io import BytesIO
 from load_css import local_css
 
+
 @st.cache_resource
 def load_image(url):
     response = requests.get(url)
@@ -34,7 +35,7 @@ st.image("img/anaconda_graphic.png", caption='Anaconda')
 
 
 st.markdown(
-     """
+    """
 ### Installing Anaconda Navigator
     
 Installing Python using Anaconda Navigator is a simple process. 
@@ -47,7 +48,7 @@ Installing Python using Anaconda Navigator is a simple process.
 st.image("img/mac_processor.png")
 
 st.markdown(
-      """
+    """
 2. Download the installer for your specific processor from [anaconda.com](https://www.anaconda.com/products/individual).
 """)
 
@@ -60,10 +61,10 @@ st.markdown("""
 1. Download the installer for your operating system from [anaconda.com](https://www.anaconda.com/products/individual).
 2. Run the installer. Do not change any of the default settings.
 """
-)
+            )
 
 st.markdown(
-"""
+    """
 <br>
 
 <div class="highlight blue">
@@ -78,10 +79,10 @@ If you struggle with any of the steps from this tutorial, we recommend the follo
 )
 
 st.markdown(
-"""
+    """
 ### Next step
 
-Go to the [Downloading Workshop Materials section](https://dsl-python-presessional.streamlit.app/Downloading_Workshop_Materials) and follow
+Go to the <a href="https://dsl-python-presessional.streamlit.app/Downloading_Workshop_Materials", target="_self">Downloading Workshop Materials section</a> and follow
 the instructions to download the Jupyter Notebooks, which contain the exercises for the Python workshops, on your personal laptop.
-"""
+""", unsafe_allow_html=True
 )
