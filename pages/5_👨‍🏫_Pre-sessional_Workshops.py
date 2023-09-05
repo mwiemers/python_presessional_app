@@ -45,7 +45,7 @@ The Python Fundamentals workshops are for beginners that have no prior experienc
 
 &nbsp; 
             
-Each of the notebooks will take you roughly 1 hour to complete. We estiamte that the average learner will required 10-12 hours to complete 
+Each of the notebooks will take you roughly 1 hour to complete. We estimate that the average learner will required 10-12 hours to complete 
 all topics excluding the final coding challenge, which will take another 1-3 hours to complete.
             
 The workshops will be run on a regular basis through September and early October. 
