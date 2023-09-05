@@ -82,7 +82,9 @@ st.markdown(
     """
 ### Next step
 
-Go to the <a href="https://dsl-python-presessional.streamlit.app/Downloading_Workshop_Materials", target="_self">Downloading Workshop Materials section</a> and follow
-the instructions to download the Jupyter Notebooks, which contain the exercises for the Python workshops, on your personal laptop.
+Go to the <a href="https://dsl-python-presessional.streamlit.app/Downloading_Workshop_Materials", target="_self">Downloading
+ Workshop Materials section</a> and follow the instructions to download the Jupyter Notebooks, which contain the exercises 
+ for the Python workshops, on your personal laptop.
 """, unsafe_allow_html=True
+
 )
