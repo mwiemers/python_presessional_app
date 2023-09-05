@@ -81,10 +81,7 @@ If you struggle with any of the steps from this tutorial, we recommend the follo
 st.markdown(
     """
 ### Next step
-
-Go to the <a href="https://dsl-python-presessional.streamlit.app/Downloading_Workshop_Materials">Downloading
- Workshop Materials section</a> and follow the instructions to download the Jupyter Notebooks, which contain the exercises 
+Go to the Downloading Workshop Materials section and follow the instructions to download the Jupyter Notebooks, which contain the exercises 
  for the Python workshops, on your personal laptop.
-""", unsafe_allow_html=True
-
+"""
 )

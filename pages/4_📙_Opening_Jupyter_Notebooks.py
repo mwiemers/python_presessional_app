@@ -83,7 +83,7 @@ st.markdown(
     """
 ### Next step
 
-Go to the <a href="https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops", target="_self">Pre-sessional workshops section</a> to 
+Go to the Pre-sessional workshops section to 
 learn about the format of the Python workshops and how to sign up for a session.
-""", unsafe_allow_html=True
+"""
 )

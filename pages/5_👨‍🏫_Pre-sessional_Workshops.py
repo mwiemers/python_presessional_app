@@ -82,6 +82,5 @@ information, please visit our [website](https://info.lse.ac.uk/current-students/
 
 
 """,
-unsafe_allow_html=True
-)
-            
+            unsafe_allow_html=True
+            )

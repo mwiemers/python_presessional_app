@@ -160,9 +160,8 @@ def main(dropdown_values):
         """
         ### Next step
 
-        Go to the <a href="https://dsl-python-presessional.streamlit.app/Installing_Python", target="_self">Installing Python section<a> and follow 
-        the instructions to install Python on your own Windows laptop or Macbook.
-        """, unsafe_allow_html=True
+        Go to the Installing Python section and follow the instructions to install Python on your own Windows laptop or Macbook.
+        """
     )
 
 
