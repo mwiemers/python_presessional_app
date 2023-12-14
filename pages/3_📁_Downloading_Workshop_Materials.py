@@ -12,36 +12,34 @@ st.title("Accessing and opening Jupyter Notebooks")
 
 st.markdown("""
 
-    ### Access to the DSL-Python-Pre-sessional team on Teams
+    ### Download the Python Pre-sessional workshop materials
 
-    In the in-person taught Python pre-sessional workshops, we teach Python using Jupyter Notebooks.
-    The notebooks can be accessed on Teams from the DSL-Python-Pre-sessional team.
-
-    Follow these steps to join the team:
+    In the Python pre-sessional workshops, we teach Python using Jupyter Notebooks.
     
-    1. Go to the Teams overview in MS Teams, which can be accessed from the sidebar on the left.
-    2. Select the Join or create team option on the top right.
-    3. Enter the team code **yp5ifrt**.
-    4. Click Join Team.
-""")
-
-st.image("img/join_team.png")
-
-
-st.markdown(
-    """
-### Download the jupyter notebooks
-
-1. Go to the Teams overview in MS Teams, which can be accessed from the sidebar on the left.
-2. Select the DSL-Python-Pre-sessional team.
-3. Select the Jupyter Notebooks channel.
-4. Select the Files tab to access the jupyter notebooks.
-5. Click here to toggle selection for all items in the folder.
-6. Select the three dot icon to access the Download option.
-7. Click Download to download all jupyter notebooks as a zip file.
-""")
-
-st.image("img/download_notebooks.png")
+    You can download the notebooks from below.
+    
+    ### Python Fundamentals
+    
+    The Python Fundamentals workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
+    - Numerical variables
+    - String variables
+    - Type casting
+    - Lists
+    - For loops
+    - Conditionals
+    - Writing functions
+    - Dictionaries
+    - While Loops
+    - Final Coding Challenges
+        
+    """)
+with open("materials/PF_notebooks.zip", "rb") as f:
+    btn = st.download_button(
+        label = "Download Python Fundamentals materials",
+        data = f,
+        file_name = "PF_notebooks.zip",
+        mime = "application/zip"
+        )
 
 
 st.markdown(
