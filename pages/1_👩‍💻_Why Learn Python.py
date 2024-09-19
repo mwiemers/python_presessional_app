@@ -28,8 +28,8 @@ def main(dropdown_values):
         """
     )
 
-    tiobe_top_20_url = "https://raw.githubusercontent.com/mwiemers/python_workshops_app/main/tiobe_top20.csv"
-    tiobe_history_url = "https://raw.githubusercontent.com/mwiemers/python_workshops_app/main/tiobe_history.csv"
+    tiobe_top_20_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/tiobe_top20.csv"
+    tiobe_history_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/tiobe_history.csv"
     gapminder_url = "https://raw.githubusercontent.com/mwiemers/python_workshops_app/main/gapminder.csv"
 
     tiobe_top_20 = clean_tiobe_top_20(load_data(tiobe_top_20_url))
