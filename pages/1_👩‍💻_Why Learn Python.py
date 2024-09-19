@@ -171,14 +171,7 @@ def load_data(url):
 
 
 def clean_tiobe_top_20(df):
-    return (
-        df
-        .drop(columns=['Unnamed: 0', 'Sep 2021', 'Programming Language'])
-        .rename(columns={'Sep 2022': 'Rank 2022',
-                         'Programming Language.1': 'Programming Language'})
-        .iloc[:, [1, 0, 2]]
-    )
-
+    return df.rename(columns=lambda col: col.replace("Sept", "Rank"))
 
 def clean_tiobe_history(df):
     return (
