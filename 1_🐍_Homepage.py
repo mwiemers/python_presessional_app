@@ -40,22 +40,19 @@ st.markdown(
 
     Please work through the pages from the sidebar menu for information about:
     * Why Python is such a popular programming language and why you should learn it.
-    * How you can install Python on your personal laptop.
+    * How you can install Python + VS Code on your personal laptop.
     * The Python Pre-sessional workshops format and timetable.
-    * How to access the Python workshop materials on Teams.
-    * How to open Jupyter Lab and load a jupyter notebook.
+    * How to access the Python workshop materials from this website.
+    * How to access and work with jupyter noteboos in VS Code.
     * How to install libraries and create and manage environments with conda (optional).
 
     &nbsp;
 
     <div class="highlight blue">
-    If you struggle with any of the steps from this tutorial, we recommend the following:
-    <ul>
-        <li>Come to the pre-sessional workshops, as detailed in the 
-        <a href="https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops", target="_self">Python Pre-sessional workshops section</a>, 
-        to get help and learn Python</li>
-        <li>Seek support from our online 1-2-1 or drop-in advice, as detailed on our <a href="https://info.lse.ac.uk/current-students/digital-skills-lab/drop-in-sessions">website</a>.</li>
-    </ul>
+    Come to the pre-sessional workshops if you struggle with any of the steps from this tutorial.
+    <br>
+    <a href="https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops", target="_self">Python Pre-sessional workshops section</a>, 
+        to get help and learn Python
     </div>
     """, unsafe_allow_html=True
 )
