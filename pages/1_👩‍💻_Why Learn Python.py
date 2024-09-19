@@ -165,7 +165,7 @@ def main(dropdown_values):
     )
 
 
-@st.cache_resource
+# @st.cache_resource
 def load_data(url):
     return pd.read_csv(url)
 
