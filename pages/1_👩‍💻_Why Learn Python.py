@@ -145,7 +145,7 @@ def main(dropdown_values):
         .apply(lambda x: x + 1)
         .cumprod()
         .apply(lambda x: x*100 - 100)
-        .rename("")
+        .rename("stock returns %")
     )
 
     st.write('\n\n Stock Returns %')
