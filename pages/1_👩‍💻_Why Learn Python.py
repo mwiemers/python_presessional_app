@@ -30,10 +30,10 @@ def main(dropdown_values):
 
     tiobe_top_20_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/tiobe_top20.csv"
     tiobe_history_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/tiobe_history.csv"
-    gapminder_url = "https://raw.githubusercontent.com/mwiemers/python_workshops_app/main/gapminder.csv"
+    gapminder_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/gapminder.csv"
 
-    tiobe_top_20 = clean_tiobe_top_20(load_data(tiobe_top_20_url), sep="\t")
-    tiobe_history = clean_tiobe_history(load_data(tiobe_history_url), sep=",")
+    tiobe_top_20 = clean_tiobe_top_20(load_data(tiobe_top_20_url))
+    tiobe_history = clean_tiobe_history(load_data(tiobe_history_url))
     gap = load_data(gapminder_url)
 
     st.dataframe(tiobe_top_20, use_container_width=True)
@@ -166,8 +166,8 @@ def main(dropdown_values):
 
 
 @st.cache_resource
-def load_data(url, sep):
-    return pd.read_csv(url, sep=sep)
+def load_data(url):
+    return pd.read_csv(url)
 
 
 def clean_tiobe_top_20(df):
