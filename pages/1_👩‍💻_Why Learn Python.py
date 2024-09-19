@@ -183,7 +183,7 @@ def clean_tiobe_top_20(df):
 def clean_tiobe_history(df):
     return (
         df
-        .drop(columns=['Unnamed: 0'])
+        .drop(columns=['-'])
         .set_index('Programming Language')
         .transpose()
         .rename_axis('', axis='columns')
