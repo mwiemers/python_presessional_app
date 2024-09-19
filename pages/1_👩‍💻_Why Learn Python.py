@@ -28,7 +28,7 @@ def main(dropdown_values):
         """
     )
 
-    tiobe_top_20_url = "https://raw.githubusercontent.com/mwiemers/main/tiobe_top20.csv"
+    tiobe_top_20_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/tiobe_top20.csv"
     tiobe_history_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/tiobe_history.csv"
     gapminder_url = "https://raw.githubusercontent.com/mwiemers/python_presessional_app/main/gapminder.csv"
 
