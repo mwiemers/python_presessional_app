@@ -14,7 +14,7 @@ st.title("DSL Python Pre-sessional workshops")
 st.markdown(
     """
     **Michael Wiemers**  
-    Learning Developer Lead (Academic Partnerships)  
+    Learning Development Lead (Academic Partnerships)  
     """)
 
 st.image("img/lse_dsl_logo.png", width=400)
