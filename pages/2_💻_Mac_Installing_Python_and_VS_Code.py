@@ -40,7 +40,7 @@ The final video will show you how to open the Python exercises as jupyter notebo
 st.image("img/conda_logo.webp", caption='Anaconda', width=500)
 
 st.markdown("""
-You can change the width of the video to span the entire page, in the settings. See instructions below
+You can change the width of the video to span across the entire webpage. See instructions below.
 """)
 st.image("img/settings.png", width=400)
 
