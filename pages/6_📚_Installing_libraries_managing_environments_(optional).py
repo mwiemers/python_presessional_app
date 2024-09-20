@@ -33,19 +33,18 @@ we can use conda commands to:
 A library is a collection of tools (functions and classes) to perform specific tasks like data manipulation, visualization, and analysis. 
 In the Python Fundamentals workshop, you have come across the random and math library so far. The math library, for instance, has a collection of 
 functions for common mathematical functions that are not directly available in Python. The math and random library are built-in into Python and do not 
-have to be installed by the user. One of the advantages of Anaconda is that it comes preinstalled with a rich collection of libraries 
-for data analysis and data science. We can get an overview of the libraries that are installed in our environment by running the following command 
+have to be installed by the user. We can get an overview of the libraries that are installed in our environment by running the following command 
 in the command prompt (Windows) or terminal (Mac).
 
 ```
-conda list
+pip list
 ```
 
 If you want to check whether a specific library is installed, you can run the following command, which will return an entry for the **pandas** library if it is installed.
 If command returns an empty list, pandas has not been installed. By the way, this command will display all libraries that have the word pandas in their name!
 
 ```
-conda list pandas
+pip list pandas
 ```
 
 #### Installing a library
@@ -53,7 +52,7 @@ conda list pandas
 To install a library, we use the following command, which will install the latest version of the pandas library.
 
 ```
-conda install pandas
+pip install pandas
 ```
 
 #### Installing a specific version of a library
@@ -61,22 +60,7 @@ conda install pandas
 To install a specific version of a library, we use the following command, which will install version 1.4 of the pandas library.
 
 ```
-conda install pandas=1.4
-```
-
-#### Installing a library from a specific channel
-
-Some libraries are only available from certain channels. You can specify the channel to look for the library, 
-using the -c flag followed by the channel name, which is conda-forge in this case. You can think of channels as 
-separate websites from where to download libraries. Some developers only make their libraries available from their own channel.
-
-A popular channel is conda-forge, which is a community-led collection of recipes, build infrastructure and distributions for the conda package manager.
-Most popular data science libraries are available from the conda-forge channel.
-
-The following command will install the pandas library from the conda-forge channel.
-
-```
-conda install -c conda-forge pandas
+pip install pandas==1.4
 ```
 
 &nbsp;
@@ -85,13 +69,13 @@ conda install -c conda-forge pandas
 ### Task: Install the yellowbrick library
 
 The yellowbrick library is a visualization library for machine learning, which lets you create many useful charts to assess your machine learning models
-with much less code. It is not currently part of the Anaconda distribution. 
+with much less code.
 
 Install the yellowbrick library from the *districtdatalabs* channel.
 
 1. Open the command prompt (Windows) or terminal (Mac).
 2. Check whether the yellowbrick library has already been installed.
-3. Install the yellowbrick library using the districtdatalabs channel.
+3. Install the yellowbrick library.
 4. Check whether the yellowbrick library has been installed.
 """
 )
@@ -233,17 +217,14 @@ jupyterlab_widgets        1.0.0              pyhd3eb1b0_1    anaconda
 
 
 
+
 st.markdown(
-"""
+    """
 <br>
 
-<div class="highlight blue">
-If you struggle with any of the steps from this tutorial, we recommend the following:
-<ul>
-    <li>Come to the pre-sessional workshops, as detailed in the Python Pre-sessional workshops section, to get help with the installation and learn Python</li>
-    <li>Seek support from our online 1-2-1 or drop-in advice, as detailed on our <a href="https://info.lse.ac.uk/current-students/digital-skills-lab/drop-in-sessions">website</a>.</li>
-</ul>
-</div>
-            
-""", unsafe_allow_html=True
+ <div class="highlight blue">
+    Come to the pre-sessional workshops if you struggle with any of the steps from this tutorial. You can find more information about the workshops in the 
+    <a href="https://dsl-python-presessional.streamlit.app/Pre-sessional_Workshops", target="_self">Python Pre-sessional workshops section</a>.
+    </div>
+    """, unsafe_allow_html=True
 )
