@@ -89,7 +89,7 @@ st.markdown(
 Follow the steps from the video to install and set up VS Code for Python and Jupyter Notebooks on your MacBook.
 """)        
 
-vs_code_installation_mac_video = "screen_rec/both/install_setup_vs_code_edited.mp4"  
+vs_code_installation_mac_video = "screen_rec/mac/install_setup_vs_code_edited.mp4"  
 
 play_video(vs_code_installation_mac_video)
 
