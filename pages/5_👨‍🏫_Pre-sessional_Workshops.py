@@ -54,12 +54,14 @@ Dates and times for the in-person workshops:
 
 | Date  | Time  | Location  | 
 |---|---|---|
-| 15-Jan-2024 | 11.00 | LSE LIFE Workspace 2 |
-| 18-Jan-2024 | 11.00 | LSE LIFE Workspace 2 |
-| 22-Jan-2024 | 10.00 | LSE LIFE Workspace 2 |
-| 25-Jan-2024 | 12.00 | LSE LIFE Workspace 2 |
-| 29-Jan-2024  | 11.00 | LSE LIFE Workspace 2 |
-| 01-Feb-2024  | 10.00 | LSE LIFE Workspace 2 |
+| 30-Sept-2024 | 13.00 | LSE LIFE Workspace 2 |
+| 04-Oct-2024 | 12.00 | LSE LIFE Workspace 2 |
+| 07-Oct-2024 | 14.00 | LSE LIFE Workspace 2 |
+| 10-Oct-2024 | 13.30 | LSE LIFE Workspace 2 |
+| 14-Oct-2024 | 13.30 | LSE LIFE Workspace 2 |
+| 18-Oct-2024 | 11.00 | LSE LIFE Workspace 2 |
+| 23-Oct-2024 | 10.30 | LSE LIFE Workspace 2 |
+| 25-Oct-2024 | 11.00 | LSE LIFE Workspace 2 |
 
 &nbsp;
 
@@ -73,15 +75,6 @@ There are a limited number of spaces available for each session!
 <b>Please use 
 <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a> to secure your spot.</b>
 If you can no longer attend, please cancel your booking so another student can book.</div>
-            
-            
-&nbsp;
-
-### What other support is available?
-
-If you are unable to attend one of the in-person workshops, you can get further support with the installation of Python or
-any Python related questions in general in our online drop-ins on Teams and StudentHub 1-2-1 support sessions. For further 
-information, please visit our [website](https://info.lse.ac.uk/current-students/digital-skills-lab/drop-in-sessions).
 
 
 """,
