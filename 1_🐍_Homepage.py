@@ -8,13 +8,13 @@ st.set_page_config(
 
 local_css("css/style.css")
 
-st.title("DSL Python Pre-sessional")
+st.title("DSL Python Pre-sessional workshops")
 
 
 st.markdown(
     """
     **Michael Wiemers**  
-    Learning Developer (Data Science Tools)  
+    Learning Developer Lead (Academic Partnerships)  
     """)
 
 st.image("img/lse_dsl_logo.png", width=400)
