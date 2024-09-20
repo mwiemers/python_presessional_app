@@ -54,7 +54,7 @@ Dates and times for the in-person workshops:
 
 | Date  | Time  | Location  | 
 |---|---|---|
-| 30-Sept-2024 | 13.00 | LSE LIFE Workspace 2 |
+| 30-Sep-2024 | 13.00 | LSE LIFE Workspace 2 |
 | 04-Oct-2024 | 12.00 | LSE LIFE Workspace 2 |
 | 07-Oct-2024 | 14.00 | LSE LIFE Workspace 2 |
 | 10-Oct-2024 | 13.30 | LSE LIFE Workspace 2 |
