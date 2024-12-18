@@ -26,7 +26,8 @@ Below are the steps you need to take to open the Python jupyter notebooks in VS 
 
 st.markdown(
     """
-1. Open the VS Code app.
+1. Open Anaconda Navigator.
+2. Locate the VS Code tile and click the launch button.
 2. Open the PF_notebooks folder, which contains the different jupyter notebook files. Go to Files > Open Folder and the select the folder.
 3. Click on the first jupyter notebook to open it.
 4. Select the kernel, which is the Python version by clicking on the **Select Kernel** button.
