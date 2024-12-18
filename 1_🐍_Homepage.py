@@ -30,8 +30,8 @@ with cols[1]:
 st.markdown(
     """
     The DSL Python pre-sessional support is divided into two main parts:
-    1. The instructions from this website to install Python + VS Code on your laptop to use Jupyter Notebooks (30 min)
-    2. The on-campus pre-sessional workshops to learn the fundamentals of programming in Python (10-12 hours of learning).
+    1. The instructions from this website to install Python + VS Code on your laptop to use Jupyter Notebooks (30 min).
+    2. The on-campus pre-sessional workshops to learn the fundamentals of programming in Python (10-15 hours of learning).
 
     Please follow the instructions on this website to install Python + VS Code to use Jupyter Notebooks before 
     you join the DSL Python Pre-sessional workshops.
@@ -40,11 +40,10 @@ st.markdown(
 
     Please work through the pages from the sidebar menu for information about:
     * Why Python is such a popular programming language and why you should learn it.
-    * How you can install Python + VS Code on your personal laptop.
+    * How you can install Python + VS Code on your personal laptop through Anaconda.
     * The Python Pre-sessional workshops format and timetable.
     * How to access the Python workshop materials from this website.
     * How to access and work with jupyter noteboos in VS Code.
-    * How to install libraries and create and manage environments with conda (optional).
 
     &nbsp;
 

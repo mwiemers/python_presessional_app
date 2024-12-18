@@ -22,13 +22,15 @@ local_css("css/style.css")
 st.markdown("""
 ## Installing Anaconda
         
-With Anaconda you can install Python, Python libraries and easily manage different Python environments.
+We recommend Anaconda since it simplifies the installation and setup of Python significantly and comes with a set of tools you can
+continue to use to an advanced level of proficiency with Python.
             
-It has many of the libraries you need for data analysis, data visualisation and machine learning.
-
-It also comes with VS Code, which is a Code Editor, that is easy to use for beginners but still has many features that make it 
-a great tool for advanced users.
-        
+By installing Anaconda you get:
+- **Python**: A recent and stable version of the core Python programming language.
+- **VS Code**: One of the best and the most popular tool to write code (not only in Python but most langauges). It also has many features that make it a fantastic option for Data Science.
+- **Conda**: A package managing tool. With conda you can manage different Python environments and install different versions of Python with ease.
+- **Data Science Libraries**: The most popular libraries to work with data are already preinstalled.
+            
 """)
 
 st.image("img/conda_logo.webp", caption='Anaconda', width=500)
