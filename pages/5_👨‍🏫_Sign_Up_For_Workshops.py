@@ -50,8 +50,9 @@ all topics excluding the final coding challenge, which will take another 1-3 hou
             
 The workshops will be run at the start of AT and WT. 
             
-#### Python pre-sessional workshops schedule
+#### Python pre-sessional workshop links
 
+Click on the link in the last column to sign up for workshops.
             
 | date | time | location | booking link |
 |------|------|----------|--------------|
