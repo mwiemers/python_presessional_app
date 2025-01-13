@@ -27,9 +27,9 @@ continue to use to an advanced level of proficiency with Python.
             
 By installing Anaconda you get:
 - **Python**: A recent and stable version of the core Python programming language.
-- **VS Code**: One of the best and the most popular tool to write code (not only in Python but most langauges). It also has many features that make it a fantastic option for Data Science.
+- **VS Code**: One of the best and the most popular tools to write code (not only in Python but most langauges). It has many features that make it a fantastic option for Data Science.
 - **Conda**: A package managing tool. With conda you can manage different Python environments and install different versions of Python with ease.
-- **Data Science Libraries**: The most popular libraries to work with data are already preinstalled.
+- **Data Science Libraries**: The most popular libraries to work with data are preinstalled.
             
 """)
 

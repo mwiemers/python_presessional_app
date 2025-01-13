@@ -45,28 +45,28 @@ The Python Fundamentals workshops are for beginners that have no prior experienc
 
 &nbsp; 
             
-Each of the notebooks will take you roughly 1 hour to complete. We estimate that the average learner will required 10-12 hours to complete 
+Each of the notebooks will take you roughly 1 hour to complete. We estimate that the average learner will required 10-15 hours to complete 
 all topics excluding the final coding challenge, which will take another 1-3 hours to complete.
             
-The workshops will be run on a regular basis through September and early October. 
+The workshops will be run at the start of AT and WT. 
             
-Dates and times for the in-person workshops:  
-
-| Date  | Time  | Location  | 
-|---|---|---|
-| 30-Sep-2024 | 13.00 | LSE LIFE Workspace 2 |
-| 04-Oct-2024 | 12.00 | LSE LIFE Workspace 2 |
-| 07-Oct-2024 | 14.00 | LSE LIFE Workspace 2 |
-| 10-Oct-2024 | 13.30 | LSE LIFE Workspace 2 |
-| 14-Oct-2024 | 13.30 | LSE LIFE Workspace 2 |
-| 18-Oct-2024 | 11.00 | LSE LIFE Workspace 2 |
-| 23-Oct-2024 | 10.30 | LSE LIFE Workspace 2 |
-| 25-Oct-2024 | 11.00 | LSE LIFE Workspace 2 |
+#### Python pre-sessional workshops schedule
+            
+| Tuesday, January 21, 2025	| 1000-1200	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a> |
+| Wednesday, January 22, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
+| Wednesday, January 29, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
+| Thursday, January 30, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
+| Wednesday, February 5, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
+| Thursday, February 6, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
+| Tuesday, February 11, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
+| Wednesday, February 12, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
+| Wednesday, February 19, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
+| Wednesday, February 26, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
 
 &nbsp;
 
 <div class="highlight red">
-Sign ups for the Python workshops will be available from <b>04 January 2024</b>.
+Sign ups for the Python workshops will be available from <b>09 January 2025</b>.
 <br>
 <br>
 There are a limited number of spaces available for each session!
