@@ -51,8 +51,10 @@ all topics excluding the final coding challenge, which will take another 1-3 hou
 The workshops will be run at the start of AT and WT. 
             
 #### Python pre-sessional workshops schedule
-            
-| Tuesday, January 21, 2025	| 1000-1200	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a> |
+
+| date | time | location | booking link |
+|======|======|==========|==============|
+| Tuesday, January 21, 2025	| 1000-1200	| LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a> |
 | Wednesday, January 22, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
 | Wednesday, January 29, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
 | Thursday, January 30, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
