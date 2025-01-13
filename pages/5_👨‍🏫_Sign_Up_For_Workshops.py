@@ -52,7 +52,7 @@ The workshops will be run at the start of AT and WT.
             
 #### Python pre-sessional workshop links
 
-Click on the link in the last column to sign up for workshops.
+Click on the link in the last column to sign up for workshops. Workshops are usually available for booking a week in advance.
             
 | date | time | location | booking link |
 |------|------|----------|--------------|
