@@ -58,14 +58,14 @@ st.image("img/install_jupyter_01.png")
 
 st.markdown(
     """
-7. VS Code will prompt you to install the jupyter libraries. Select Install
+7. In case VS Code prompts you to install the jupyter libraries, select Install, otherwise ignore step 7. and 8.
 """)
 
 st.image("img/install_jupyter_02.png", width=200)
 
 st.markdown(
     """
-    A pop up window will appear in the lower-right corner of the VS Code app. Wait until the installation has been completed.
+8. A pop up window will appear in the lower-right corner of the VS Code app. Wait until the installation has been completed.
 """)
 
 st.image("img/install_jupyter_03.png", width=400)
