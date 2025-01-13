@@ -52,18 +52,19 @@ The workshops will be run at the start of AT and WT.
             
 #### Python pre-sessional workshops schedule
 
+            
 | date | time | location | booking link |
 |------|------|----------|--------------|
-| Tuesday, January 21, 2025	| 1000-1200	| LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">this link</a> |
-| Wednesday, January 22, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
-| Wednesday, January 29, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
-| Thursday, January 30, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
-| Wednesday, February 5, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
-| Thursday, February 6, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
-| Tuesday, February 11, 2025 | 1000-1200 |	LIFE Workspace 4 | (link 1) |
-| Wednesday, February 12, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
-| Wednesday, February 19, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
-| Wednesday, February 26, 2025 | 1000-1200 | LIFE Workspace 4 | (link 1) |
+| Tuesday, January 21, 2025	| 1000-1200	| LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">link 1</a> |
+| Wednesday, January 22, 2025 | 1000-1200 | LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/10517668">link 2</a> |
+| Wednesday, January 29, 2025 | 1000-1200 |	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/10517668">link 2</a>  |
+| Thursday, January 30, 2025 | 1000-1200 |	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">link 1</a>  |
+| Wednesday, February 5, 2025 | 1000-1200 |	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/10517668">link 2</a>  |
+| Thursday, February 6, 2025 | 1000-1200 |	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">link 1</a> |
+| Tuesday, February 11, 2025 | 1000-1200 |	LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/9993200">link 1</a>  |
+| Wednesday, February 12, 2025 | 1000-1200 | LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/10517668">link 2</a>  |
+| Wednesday, February 19, 2025 | 1000-1200 | LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/10517668">link 2</a>  |
+| Wednesday, February 26, 2025 | 1000-1200 | LIFE Workspace 4 | <a href="https://apps.lse.ac.uk/training-system/userBooking/course/10517668">link 2</a>  |
 
 &nbsp;
 
