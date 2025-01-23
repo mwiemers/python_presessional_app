@@ -64,7 +64,43 @@ st.markdown(
 Run the installer.
 """)        
 
+st.markdown(
+    """
+### Installing VS Code
 
+1. To install VS Code, go to [this website](https://code.visualstudio.com/download) to download the installer.
+    - Windows: select the the x64 option for Intel CPUs and the Arm64 option for ARM CPUs.
+    - MacBook: select the Intel Chip version if your MacBook has an Intel CPU and the Apple Silicon if your MacBook has an M1/M2/M3 processor.
+
+        You can find out about the CPU of your MacBook by clicking on the Apple logo in the top-left corner of the screen and then select About this Mac.
+
+""")
+
+st.image("img/vs_code_install.png", width=600)
+
+st.markdown("""
+
+2. Run the installer.
+            
+                        
+### Setting up VS Code
+    
+1. Open VS Code
+    - Windows: Hit the Windows key and type visual studio code. Hit Enter.
+    - MacBook: Hit Cmd+Space key and type visual studio code. Hit Enter.
+
+2. In VS Code, on the left-hand menu open the Extensions section.
+""")        
+
+st.image("img/vs_code_extensions.png", width=300)
+
+st.markdown(
+    """
+3. Search for the Python extension and click install.
+4. Search for the Jupyter extension and click install.
+""")       
+
+st.image("img/vs_code_extensions2.png", width=300)
 
 st.markdown(
     """
