@@ -65,7 +65,7 @@ Dates and times for the in-person workshops:
 &nbsp;
 
 <div class="highlight red">
-Sign ups for the Python workshops will be available from <b>04 January 2024</b>.
+Sign ups for the Python workshops will be available from a week before start of term.
 <br>
 <br>
 There are a limited number of spaces available for each session!
