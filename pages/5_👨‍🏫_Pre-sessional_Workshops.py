@@ -64,7 +64,7 @@ Dates and times for the in-person workshops:
 
 &nbsp;
 
-<div class="highlight red">
+<div class="highlight blue">
 Sign ups for the Python workshops will be available from a week before start of term.
 <br>
 <br>
